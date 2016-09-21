@@ -14,7 +14,7 @@ body{
     bottom: 0;
     margin: 0;
     padding: 60px;
-    
+    border: 10px solid red;
 }
 
 p{
@@ -22,7 +22,7 @@ p{
     background-color: yellow;
     width: 200px;
     overflow: hidden;
-    font: ;
+    font: helvetica ;
     
 }
 
