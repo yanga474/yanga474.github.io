@@ -1,0 +1,45 @@
+body{ 
+    background-color: #20efcf;
+    color: white;
+    font-size: 60px;
+    line-height: -5px;
+    font-family: futura, helvetica, arial, sans-serif;
+    
+}
+
+.ontop{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 60px;
+    
+}
+
+p{
+    color: red;
+    background-color: yellow;
+    width: 200px;
+    overflow: hidden;
+    font: ;
+    
+}
+
+.special{
+    background-color: purple;
+    color: white;
+}
+.whatever{
+    background-color: blue;
+    color: white;
+}
+#myh1{
+    font-family: times;
+    color: white;
+    
+}
+
+    
+    
+}
