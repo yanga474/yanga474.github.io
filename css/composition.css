@@ -1,0 +1,82 @@
+body{ 
+    background-color: #ffe87b;
+    color: white;
+    font-size: 40px;
+    line-height: -10px;
+    font-family: futura;
+}
+.special{
+    background-color: #333;
+    width: 300px;
+    border-style: solid;
+    border-color: #46bebc;
+    border-width: 20px;
+    overflow: hidden;
+    padding: 100px;
+    margin: 50px;
+}
+.special2{
+    background-color: #333;
+    width: 300px;
+    border-style: solid;
+    border-color: #46bebc;
+    border-width: 30px;
+    overflow: hidden;
+    padding: 50;
+    margin: 300;
+}
+.special3{
+    position: relative;
+    background-color: #333;
+    width: 200px;
+    border-style: solid;
+    border-color: #46bebc;
+    border-width: 15px;
+    overflow: hidden;
+    padding: 20;
+    margin: 600;
+
+}
+.example1 {
+     height: 50px;	
+ overflow: hidden;
+ position: relative;
+}
+.example1 h3 {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 50px;
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);	
+ transform:translateX(100%);
+ /* Apply animation to this element */	
+ -moz-animation: example1 15s linear infinite;
+ -webkit-animation: example1 15s linear infinite;
+ animation: example1 15s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes example1 {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes example1 {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes example1 {
+ 0%   { 
+ -moz-transform: translateX(100%); /* Firefox bug fix */
+ -webkit-transform: translateX(100%); /* Firefox bug fix */
+ transform: translateX(100%); 		
+ }
+ 100% { 
+ -moz-transform: translateX(-100%); /* Firefox bug fix */
+ -webkit-transform: translateX(-100%); /* Firefox bug fix */
+ transform: translateX(-100%); 
+
+    
+}    
