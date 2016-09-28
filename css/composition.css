@@ -4,6 +4,39 @@ body{
     font-size: 40px;
     line-height: -10px;
     font-family: futura;
+
+}
+    
+.special {
+    background-color: #333;
+    width: 300px;
+    border-style: solid;
+    border-color: #46bebc;
+    border-width: 20px;
+    overflow: hidden;
+    padding: 100px;
+    margin: 50px;
+}
+.special2 {
+    background-color: #333;
+    width: 300px;
+    border-style: solid;
+    border-color: #46bebc;
+    border-width: 30px;
+    overflow: hidden;
+    padding: 50;
+    margin: 300;
+}
+.special3 {
+    position: relative;
+    background-color: #333;
+    width: 200px;
+    border-style: solid;
+    border-color: #46bebc;
+    border-width: 15px;
+    overflow: hidden;
+    padding: 20;
+    margin: 600;
 }
 .example1 {
      height: 50px;	
@@ -49,34 +82,4 @@ body{
     
 }    
 
-.special{
-    background-color: #333;
-    width: 300px;
-    border-style: solid;
-    border-color: #46bebc;
-    border-width: 20px;
-    overflow: hidden;
-    padding: 100px;
-    margin: 50px;
-}
-.special2{
-    background-color: #333;
-    width: 300px;
-    border-style: solid;
-    border-color: #46bebc;
-    border-width: 30px;
-    overflow: hidden;
-    padding: 50;
-    margin: 300;
-}
-.special3{
-    position: relative;
-    background-color: #333;
-    width: 200px;
-    border-style: solid;
-    border-color: #46bebc;
-    border-width: 15px;
-    overflow: hidden;
-    padding: 20;
-    margin: 600;
 }
