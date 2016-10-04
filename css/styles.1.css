@@ -1,0 +1,46 @@
+body {
+    background-color: yellow;
+    margin: 0;
+    letter-spacing: 10px
+}
+.button {
+    width: 200px;
+    height: 200px;
+    background-color: lime;
+    line-height: 200px;
+    border-radius: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 100;
+}
+
+.button2 {
+    bottom: 60px;
+    right: 60px;
+    background-color: orange;
+    z-index: 200;
+    
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 800px;
+    font-size: 0;
+    letter-spacing: 0;
+
+}
+
+.column {
+    background-color: red;
+    width: 180px;
+    color: white;
+    padding: 0 10px;
+    padding-top: 100px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 20px;
+
+}
+
