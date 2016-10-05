@@ -1,0 +1,66 @@
+.stage {
+    width: 200px;
+    height: 400px;
+    background-color: yellow;
+    position: relative;
+    
+}
+
+.box {
+    width: 100px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+    
+} 
+
+.circle {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border-radius: 100px;
+}
+
+.triangle {
+    width: 0px;
+    border: 200px solid transparent;
+    border-top: 300px solid green;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+.box1 {
+    top: 20px;
+    left: 20px;
+    background-color: lime;
+    
+        
+}
+
+.box2 {
+    top: 40px;
+    left: 40px;
+    background-color: blue;
+    
+        
+}
+
+.box3 {
+    top: 60px;
+    left: 60px;
+    background-color: orange;
+    
+    
+}
+
+.box4 {
+    top: 80px;
+    left: 80px;
+    background-color: red;
+}
