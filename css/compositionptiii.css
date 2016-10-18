@@ -1,0 +1,188 @@
+body {
+    background-color: black;
+    letter-spacing: 0px
+    
+}    
+
+@keyframes slide {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    left: 244px;
+    top: 100px;
+  }
+  100% {
+    left: 488px;
+    top: 0;
+  }
+}
+.stage {
+  background: #eaeaed;
+  border-radius: 6px;
+  height: 150px;
+  position: relative;
+  min-width: 538px;
+}
+.stage:hover .ball {
+  animation: slide 2s linear;
+}
+.ball {
+  background: #2db34a;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+    
+    
+@keyframes rot {
+	from {
+		transform: rotate(0deg)
+		           translate(-150px)
+		           rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg)
+		           translate(-150px) 
+		           rotate(-360deg);
+	}
+}
+
+.smile {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 500px;
+	left: 50%;
+	margin: -20px;
+	font-size: 100px;
+	animation: rot 5s infinite linear;
+	width: 200px;
+    height: 200px;
+    background-color: orange;
+    line-height: 200px;
+    border-radius: 100%;
+    text-align: center;
+    bottom: 40px;
+    right: 40px;
+    z-index: 100;
+    
+}
+    
+@keyframes rot {
+	from {
+		transform: rotate(0deg)
+		           translate(-150px)
+		           rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg)
+		           translate(-150px) 
+		           rotate(-360deg);
+	}
+}  
+
+.smile:hover {
+  background-color: #333;
+}
+
+
+.box {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 200px;
+	left: 50%;
+	margin: -20px;
+	font-size: 100px;
+	animation: rot 5s infinite linear;
+	width: 200px;
+    height: 200px;
+    background-color: yellow;
+    line-height: 200px;
+    border-radius: 5%;
+    text-align: center;
+    bottom: 40px;
+    right: 40px;
+    z-index: 100;
+    
+}
+
+.box:hover {
+  background-color: #333;
+}
+
+    
+
+}
+
+@keyframes mymove {
+    0%   {top: 20px; left: 20px; background: red;}
+    25%  {top: 20px; left: 1200px; background: blue;}
+    50%  {top: 400px; left: 1200px; background: yellow;}
+    75%  {top: 400px; left: 20px; background: green;}
+    100% {top: 20px; left: 20px; background: orange;}
+}
+
+
+.square {
+    width: 200px;
+    height: 200px;
+    background: red;
+    position: absolute;
+    -webkit-animation: mymove 5s infinite;
+    animation: mymove 7s infinite;
+
+}
+.square:hover {
+  background-color: #333;
+}
+
+
+.element {
+  height: 250px;
+  width: 250px;
+  margin: 0 auto;
+  background-color: red;
+  animation-name: stretch;
+  animation-duration: 1.5s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+@keyframes stretch {
+  0% {
+    transform: scale(.3);
+    background-color: red;
+    border-radius: 100%;
+  }
+  50% {
+    background-color: orange;
+  }
+  100% {
+    transform: scale(1.5);
+    background-color: yellow;
+  }
+}
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.element:hover {
+    background-color: #333;
+    
+}
