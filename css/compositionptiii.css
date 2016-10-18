@@ -166,7 +166,7 @@ body {
     background-color: yellow;
   }
 }
-
+body,
 html {
   height: 100%;
 }
@@ -177,7 +177,6 @@ body {
   justify-content: center;
 
 }
-.element:hover {
-    background-color: #333;
+
     
 }
