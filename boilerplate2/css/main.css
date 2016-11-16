@@ -16,7 +16,6 @@ html {
     line-height: 1.4;
 }
 
-
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -96,23 +95,17 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-.round { 
+.dot {
     width: 100px;
     height: 100px;
-    background-color: green;
-    border-radius: 30%;
+    background-color: red;
     display: inline-block;
+    margin: 20px;
     
 }
 
-.whatever {
-     width: 100px;
-    height: 100px;
-    background-color: red;
-    border-radius: 30%;
-    display: inline-block;
-    
-}
+
+
 
 
 
@@ -296,5 +289,3 @@ textarea {
         page-break-after: avoid;
     }
 }
-
-
