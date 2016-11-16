@@ -99,16 +99,19 @@ textarea {
 .round { 
     width: 100px;
     height: 100px;
-    background-color: green;
+    background-color: black;
     border-radius: 30%;
-    display: inline-block;
+    margin: 20px;
+    display: inline-block
+   
+   
     
 }
 
 .whatever {
-     width: 100px;
+    width: 100px;
     height: 100px;
-    background-color: red;
+    background-color: blue;
     border-radius: 30%;
     display: inline-block;
     
