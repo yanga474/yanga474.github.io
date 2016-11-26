@@ -1,6 +1,6 @@
 $("body").css("background-color", "yellow");
 
-for (var i=0; i < 100; i++) {
+for (var i=0; i < 99; i++) {
     $("body").append("<div class='round'></div>");
 
 }
