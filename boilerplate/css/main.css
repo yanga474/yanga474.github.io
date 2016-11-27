@@ -96,20 +96,25 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-.dot {
-    width: 800px;
-    height: 800px;
-    background-color: orange;
-    position: absolute;
-    display: inline-block;
-    margin: 50px;
+.round { 
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 30%;
+    margin: 20px;
+    display: inline-block
+   
+   
+    
 }
 
 .whatever {
-    background-color: lime;
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 30%;
+    display: inline-block;
+    
 }
 
 

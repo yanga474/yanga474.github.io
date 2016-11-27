@@ -94,163 +94,48 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-@-webkit-keyframes rotate {
-    0% {
-        -webkit-transform:translate(100px, 100px) rotate(0deg) translate(-100px, -100px) rotate(0deg);
-        background-color:red;
-    }  
-  13% {
-        -webkit-transform:translate(100px, 100px) rotate(45deg) translate(-100px, -100px) rotate(-45deg);
-  }
-  25% {
-      -webkit-transform:translate(100px, 100px) rotate(90deg) translate(-100px, -100px) rotate(-90deg);
-  }
-  38% {
-      -webkit-transform:translate(100px, 100px) rotate(135deg) translate(-100px, -100px) rotate(0deg);
-  }
-  50% {
-      -webkit-transform:translate(100px, 100px) rotate(180deg) translate(-100px, -100px) rotate(-180deg);
-  }
-  63% {
-      -webkit-transform:translate(100px, 100px) rotate(225deg) translate(-100px, -100px) rotate(225deg);
-  }
-  75% {
-      -webkit-transform:translate(100px, 100px) rotate(270deg) translate(-100px, -100px) rotate(-270deg);
-  }
-  88% {
-      -webkit-transform:translate(100px, 100px) rotate(315deg) translate(-100px, -100px) rotate(315deg);
-  }
-    100% {
-        -webkit-transform:translate(100px, 100px) rotate(360deg) translate(-100px, -100px) rotate(-360deg);
-    }
+#contentContainer {
+	position: relative;
+	margin: 30px;
+	left: 300px;
+	width: 600px;
+	height: 600px;
+	border: 1px black solid;
+	overflow: hidden;
+	background-color: #EEE;
+	cursor: pointer;
 }
-#circle {
-    height: 300px;
-    width: 300px;
-    border-radius: 20px;
-    background-color: teal;
-    -webkit-animation-duration: 4s;
-    -webkit-animation-timing-function: linear;
-    -webkit-animation-name:"rotate";
-    -webkit-animation-iteration-count: infinite;
-    position:absolute;
-    left:30%;
-    top:20%; 
-}
-#button {
-  width:130px;
-  background:teal;
+#thing {
+	position: relative;
+  width:100px;
+  height:100px;
+	left: 50px;
+	top: 50px;
+  background-color:red;
+	transition: left .5s cubic-bezier(.42,-0.3,.78,1.25), 
+			top .5s cubic-bezier(.42,-0.3,.78,1.25);
 }
 
-.heart {
-  position: relative;
+#thing2 {
+	position: relative;
   width: 100px;
-  height: 90px;
-  margin: 30px;
-  
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  -o-transform: scale(1);
-  -moz-transform: scale(1);
-  transform: scale(1);
-  -webkit-transform-origin: center center;
-  -moz-transform-origin: center center;
-  -ms-transform-origin: center center;
-  -o-transform-origin: center center;
-  transition: all 1s; 
-}
-.heart.css {  
-  -webkit-animation-delay:1s;
-  -moz-animation-delay:1s;
-  -ms-animation-delay:1s;
-  -o-animation-delay:1s;
-  animation-dely:1s;
-}
-.heart.animated {
-  -webkit-animation: 1600ms pulsate infinite alternate ease-in-out;
-  -moz-animation: 1600ms pulsate infinite alternate ease-in-out;
-  -ms-animation: 1600ms pulsate infinite alternate ease-in-out;
-  -o-animation: 1600ms pulsate infinite alternate ease-in-out;
-  animation: 1600ms pulsate infinite alternate ease-in-out;
-}
-.heart:before,
-.heart:after { 
-  position: absolute; 
-  content: "";
-  left: 50px;
-  top: 0;
-  width: 50px;
-  height: 80px;
-  background: red;
-  -moz-border-radius: 50px 50px 0 0;
-  border-radius: 50px 50px 0 0;
-  -webkit-transform: rotate(-45deg);
-     -moz-transform: rotate(-45deg);
-      -ms-transform: rotate(-45deg);
-       -o-transform: rotate(-45deg);
-          transform: rotate(-45deg);
-  -webkit-transform-origin: 0 100%;
-     -moz-transform-origin: 0 100%;
-      -ms-transform-origin: 0 100%;
-       -o-transform-origin: 0 100%;
-          transform-origin: 0 100%;
-}
-.heart:after {
-  left: 0;
-  -webkit-transform: rotate(45deg);
-     -moz-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
-       -o-transform: rotate(45deg);
-          transform: rotate(45deg);
-  -webkit-transform-origin: 100% 100%;
-     -moz-transform-origin: 100% 100%;
-      -ms-transform-origin: 100% 100%;
-       -o-transform-origin: 100% 100%;
-          transform-origin :100% 100%;
-}
-.heart.css:hover {
-  -webkit-transform: scale(2);
-  -moz-transform: scale(2);
-  -ms-transform: scale(2);
-  -o-transform: scale(2);
-  transform: scale(2);
-  -webkit-animation:'';
-  -moz-animation:none;
-  -ms-animation:'';
-  -o-animation:'';
-  animation:'';
-}
+  height:100px;
+	left: 70px;
+	top: 90px;
+  background-color:blue;
+	transition: left .5s cubic-bezier(.42,-0.3,.78,1.25), 
+			top .5s cubic-bezier(.42,-0.3,.78,1.25);
+			
+} 
 
-@keyframes pulsate {
-  0% { transform: scale(1); }
-  50% { transform: scale(1.3); }
-  100% { transform: scale(1); }
-}
-@-webkit-keyframes pulsate {
-  0% { -webkit-transform: scale(1); }
-  50% { -webkit-transform: scale(1.3); }
-  100% { -webkit-transform: scale(1); }
-}
-@-moz-keyframes pulsate {
-  0% { -moz-transform: scale(1); }
-  50% { -moz-transform: scale(1.3); }
-  100% { -moz-transform: scale(1); }  
-}
-@-ms-keyframes pulsate {
-  0% { -ms-transform: scale(1); }
-  50% { -ms-transform: scale(1.3); }
-  100% { -ms-transform: scale(1); }  
-}
-@-o-keyframes pulsate {
-  0% { -o-transform: scale(1); }
-  50% { -o-transform: scale(1.3); }
-  100% { -o-transform: scale(1); }  
-}
-
-.whatever {
-    background-color: lime;
-    width: 100px;
-    height: 100px;
-    border-radius: 100%;
+#thing3 {
+	position: relative;
+  width: 100px;
+  height:100px;
+	left: 200px;
+	top: 10px;
+  background-color: yellow;
+	transition: left .5s cubic-bezier(.42,-0.3,.78,1.25), 
+			top .5s cubic-bezier(.42,-0.3,.78,1.25);
+			
 }
