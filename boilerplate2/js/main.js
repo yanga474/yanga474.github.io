@@ -133,6 +133,7 @@ function AnimationListener() {
     }
 }
 
+});
 function TransitionListener() {
   if(!hovered)
   {
@@ -146,4 +147,8 @@ function PrefixedEvent(element, type, callback) {
         element.addEventListener(pfx[p]+type, callback, false);
     }
 }
-}); 
+
+$("heart").click(function() {
+    $(this).toggleClass("whatever");
+    
+});

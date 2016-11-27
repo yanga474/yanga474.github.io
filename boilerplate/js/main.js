@@ -6,7 +6,7 @@ for (var i=0; i < 99; i++) {
 }
 
 
-$(".round").click(function() {
+$("round").click(function() {
     $(this).toggleClass("whatever");
 });
 
