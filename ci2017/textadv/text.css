@@ -1,0 +1,28 @@
+body {
+    overflow: scroll;
+	background-color: #f4d23a;
+    margin: 0px;
+
+}
+.fullwidth{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+
+}
+.startbutton {
+
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 8px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    /*margin: 4px 2px;*/
+    cursor: pointer;
+
+}
+
