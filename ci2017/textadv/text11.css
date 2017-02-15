@@ -1,0 +1,36 @@
+body {
+    background-image: url(dinner2.jpg);
+    margin: 0px;
+    background-repeat: no-repeat;
+}
+
+
+#textwrap {
+    color: white;
+    font-family: futura;
+    font-weight: medium;
+    font-size: 20px;
+    position: absolute;
+    width: 720px;
+    left: 350px;
+    top: 200px;
+
+}
+
+.choice14 {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 2px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    cursor: pointer;
+    font-family: futura;
+    font-weight: medium;
+    position: absolute;
+    top: 400px;
+    right: 650px;
+
+}

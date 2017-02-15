@@ -1,0 +1,54 @@
+body {
+    background-image: url(car2.jpg);
+    margin: 0px;
+    background-repeat: no-repeat;
+}
+
+
+#textwrap {
+    color: white;
+    font-family: futura;
+    font-weight: medium;
+    font-size: 20px;
+    position: absolute;
+    width: 720px;
+    left: 350px;
+    top: 180px;
+
+}
+
+.choice7 {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 2px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: futura;
+    font-weight: medium;
+    position: absolute;
+    top: 480px;
+    right: 750px;
+
+}
+
+.choice8 {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 2px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: futura;
+    font-weight: medium;
+    position: absolute;
+    top: 480px;
+    right: 490px;
+
+}

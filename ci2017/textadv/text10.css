@@ -1,0 +1,37 @@
+body {
+    background-image: url(walk2.jpg);
+    margin: 0px;
+    background-repeat: no-repeat;
+}
+
+
+#textwrap {
+    color: white;
+    font-family: futura;
+    font-weight: medium;
+    font-size: 30px;
+    position: absolute;
+    width: 720px;
+    left: 350px;
+    top: 280px;
+
+}
+
+.choice13 {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 2px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 23px;
+    cursor: pointer;
+    font-family: futura;
+    font-weight: medium;
+    position: absolute;
+    top: 400px;
+    right: 630px;
+
+}
+
