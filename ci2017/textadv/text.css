@@ -9,10 +9,11 @@ body {
     width: 100%;
     text-align: center;
     top: 50%;
+    right: 160px;
+
 
 }
 .startbutton {
-
     background-color: white;
     border: none;
     color: black;
@@ -23,6 +24,7 @@ body {
     font-size: 30px;
     /*margin: 4px 2px;*/
     cursor: pointer;
+    position: fixed;
 
 }
 

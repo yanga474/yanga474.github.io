@@ -29,9 +29,10 @@ body {
     cursor: pointer;
     font-family: futura;
     font-weight: medium;
-    position: absolute;
     top: 480px;
     right: 760px;
+    position: fixed;
+
 
 }
 
@@ -47,8 +48,9 @@ body {
     cursor: pointer;
     font-family: futura;
     font-weight: medium;
-    position: absolute;
     top: 480px;
     right: 520px;
+    position: fixed;
+
 
 }
