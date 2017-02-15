@@ -1,24 +1,24 @@
 body {
-	background-image: url(bed.jpg);
-	margin: 0px;
-	background-repeat: no-repeat;
+    background-image: url(afit.jpg);
+    margin: 0px;
+    background-repeat: no-repeat;
 }
 
 
 #textwrap {
-	color: white;
-	font-family: futura;
-	font-weight: medium;
-	font-size: 20px;
-	position: absolute;
-	width: 720px;
-	left: 350px;
-	top: 150px;
+    color: white;
+    font-family: futura;
+    font-weight: medium;
+    font-size: 20px;
+    position: absolute;
+    width: 720px;
+    left: 350px;
+    top: 270px;
 
 }
 
-.choice1 {
-	background-color: white;
+.choice5 {
+    background-color: white;
     border: none;
     color: black;
     padding: 2px 20px;
@@ -31,12 +31,12 @@ body {
     font-weight: medium;
     position: absolute;
     top: 480px;
-    right: 760px;
+    right: 750px;
 
 }
 
-.choice2 {
-	background-color: white;
+.choice6 {
+    background-color: white;
     border: none;
     color: black;
     padding: 2px 20px;
@@ -49,6 +49,6 @@ body {
     font-weight: medium;
     position: absolute;
     top: 480px;
-    right: 520px;
+    right: 420px;
 
 }

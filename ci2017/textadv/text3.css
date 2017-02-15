@@ -1,5 +1,5 @@
 body {
-	background-image: url(bed.jpg);
+	background-image: url(coffee.jpg);
 	margin: 0px;
 	background-repeat: no-repeat;
 }
@@ -13,11 +13,11 @@ body {
 	position: absolute;
 	width: 720px;
 	left: 350px;
-	top: 150px;
+	top: 220px;
 
 }
 
-.choice1 {
+.choice3 {
 	background-color: white;
     border: none;
     color: black;
@@ -35,7 +35,7 @@ body {
 
 }
 
-.choice2 {
+.choice4 {
 	background-color: white;
     border: none;
     color: black;
@@ -50,5 +50,4 @@ body {
     position: absolute;
     top: 480px;
     right: 520px;
-
 }
