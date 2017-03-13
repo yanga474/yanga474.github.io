@@ -1,0 +1,11 @@
+Relevant to many of you from today:
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/position
+
+Here is a basic tutorial on how the terminal works – I highly recommend getting familiar with it, as it will save you lots of time in the future!
+http://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line
+
+For anyone who's interested in diving deeper into the terminal (well worth the effort):
+http://jilles.me/badassify-your-terminal-and-shell/
+
+
