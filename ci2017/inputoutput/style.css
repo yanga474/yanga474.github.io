@@ -1,0 +1,7 @@
+body { 
+font-family: 'avenir', san-serif;
+
+}
+#after_submit {
+	visibility: hidden;
+}
