@@ -39,5 +39,13 @@ for (var i = 0; i < myinputs.length; i++) {
 }
 
 function onInputClick(e) {
-	e.target.
+	e.target.parentElement.style.top = Math.random()*1000+100 + "px"; 
+	e.target.parentElement.style.left = Math.random()*1000+100 + "px"; 
+	e.target.parentElement.style.right = Math.random()*100+100 + "px";  
+	e.target.parentElement.style.position = "absolute"; 
+
+	console.log(e.target)
+	// var xPosition = event.clientX - input.getBoundingClientRect().left - (onInputClick.clientWidth / 2);
 }
+
+
