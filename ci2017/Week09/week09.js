@@ -44,8 +44,8 @@
 // }
 
 console.clear();
-const boms = document.getElementsByClassName("bom");
-const booms = document.getElementsByClassName("booms");
+var boms = document.getElementsByClassName("bom");
+var booms = document.getElementsByClassName("booms");
 
 setTimeout(() => {
     for (let i = 0; i < boms.length; i++) {
