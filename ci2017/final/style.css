@@ -155,3 +155,11 @@ p {
     display: none;
 }
 
+#audioHolder {
+    cursor: pointer;
+}
+
+#audioHolder:hover { 
+    color: blue;
+
+}
