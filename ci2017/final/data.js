@@ -1,4 +1,4 @@
-var audio = [
+var audiodata = [
 {
 "date": "04/08/17",
 "time": "12:19AM",
@@ -137,9 +137,86 @@ var audio = [
 "time": "3.38PM",
 "timeofday": "afternoon",
 "audioSrc": "audio/04-27-3.38PM"
+},
+
+{
+"date": "04/28/17",
+"time": "8.00PM",
+"timeofday": "night",
+"audioSrc": "audio/04-28-8.00PM"
+},
+
+
+{
+"date": "04/29/17",
+"time": "10:01PM",
+"timeofday": "night",
+"audioSrc": "audio/04-29-10.01PM"
+},
+
+{
+"date": "04/30/17",
+"time": "8.14PM",
+"timeofday": "night",
+"audioSrc": "audio/04-30-8.14PM"
+},
+
+{
+"date": "05/01/17",
+"time": "8.38AM",
+"timeofday": "morning",
+"audioSrc": "audio/05-01-8.38AM"
+},
+
+{
+"date": "05/02/17",
+"time": "5.57PM",
+"timeofday": "afternoon",
+"audioSrc": "audio/05-02-5.57PM"
+},
+
+{
+"date": "05/03/17",
+"time": "8.03PM",
+"timeofday": "night",
+"audioSrc": "audio/05-03-8.03PM"
+},
+
+{
+"date": "05/04/17",
+"time": "8.24PM",
+"timeofday": "night",
+"audioSrc": "audio/05-04-8.24PM"
+},
+
+{
+"date": "05/05/17",
+"time": "10.38PM",
+"timeofday": "night",
+"audioSrc": "audio/05-05-10.38PM"
+},
+
+{
+"date": "05/06/17",
+"time": "8.32PM",
+"timeofday": "afternoon",
+"audioSrc": "audio/05-06-8.32PM"
+},
+
+{
+"date": "05/07/17",
+"time": "11.35PM",
+"timeofday": "night",
+"audioSrc": "audio/05-07-11.35PM"
+},
+
+{
+"date": "05/08/17",
+"time": "11.22PM",
+"timeofday": "night",
+"audioSrc": "audio/05-08-11.22PM"
 }
 ];
-
 
 
 

@@ -7,7 +7,20 @@
 
 
         <div id="holder">
+            <h2 id="title"></h2>
+            <div id = "audioHolder"></div>
+            <br>
+            <br>
+            <br>
+            <p id = "instruction">*Drag Audio into Graphic 
+                <br>and Press Play!*</p>
         </div>
+
+        <div id="container" ondrop="drop_handler(event);" ondragover="dragover_handler(event);">
+        </div>
+
+        <audio id="myplayer" src="" controls></audio>
+
 
   <div class="main">
 
@@ -44,9 +57,13 @@
       </div>
     </section>
 
+    <script src="three.min.js"></script>
+    <script src="OrbitControls.js"></script>
+    <script src="Detector.js"></script>
     <script src="data.js"></script>
     <script src="underscore-min.js"></script>
     <script src="main.js"></script>
+    <script src="audio.js"></script>
 
 
 </body>
