@@ -3,4 +3,33 @@ body {
 	background-image: url(corgi.gif);
 	margin: 0px;
     background-repeat: no-repeat;
+
+}
+
+h1 {
+   color: #456789;
+
+}
+/* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: yellow;
+}
+
+/* selected link */
+a:active {
+    color: yellow;
+}
+
+a {
+	text-decoration: none;
 }

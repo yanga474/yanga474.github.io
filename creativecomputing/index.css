@@ -8,6 +8,7 @@ body {
     background-image: url(https://d13yacurqjgara.cloudfront.net/users/80569/screenshots/1269026/anim_preview.gif);
     color: #b4eef4;
 }
+
 /* unvisited link */
 a:link {
     color: white;
@@ -27,3 +28,4 @@ a:hover {
 a:active {
     color: yellow;
 }
+
